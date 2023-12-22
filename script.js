@@ -1,20 +1,25 @@
 // Assignment code here
-
+const nmbrchar = [8,129]
 const str1 = 'abcdefghijklmnopqrstuvwxyz'; 
 const str2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const str3 = '0123456789'
 const str4 = '!@#$%^&*()-_=+[]{}|;:,.<>?'
 const password = 'str1 + str2 + str3 + str4';
-
-window.prompt("How many characters would you like to be included")
-
-window.confirm("Would you like it to include lowercase letters?")
-
-window.confirm("Would you like it to include special characters?")
+console.log(str1, str2, str3, str4);
 
 
+alert("Hello, let's create your unique password");
 
-console.log(str1 + str2 + str3 + str4)
+prompt("How many characters would you like to be included");
+console.log(nmbrchar);
+
+confirm("Would you like it to include lowercase letters?");
+console.log()
+
+confirm("Would you like it to include special characters?");
+ 
+if 
+(console.log('str1 + str2 + str3 + str4'));
 
 for(var i=0; i < str1.length; i++) [ console.log('Here is your password, ' + password[i])]
 
